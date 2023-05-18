@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #505180; 
+}
+
+#header {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+  color: white;
+  background: #b87ac2  ;
+  border-radius: 15px;
+  width: 95%;
+  margin: auto;
+}
+
+#search {
+  display: block;
+  margin: 40px auto; 
+  padding: 5px;
+  width: 60%; 
+  font-size: 1.2em;
+  border-radius: 15px; 
+  border: none; 
+  padding: 10px; 
+  background-color: #cbcadc; 
+  color: rgb(255, 255, 255); 
+}
+
+#tabs {
+  text-align: center;
+  padding: 20px;
+}
+
+#tabs button {
+  margin: 0 10px;
+  background-color: #967f9b; 
+  color: white; 
+  border: none; 
+  border-radius: 15px; 
+  padding: 20px; 
+  font-size: 2em;
+  cursor: pointer; 
+}
+
+#tabs button:hover {
+  background-color: #777abe; 
+}
+
+#gems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gem {
+  flex-basis: 150px; 
+  height: 150px;  
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 15px;
+
+  text-align:center;
+  background-color: white;
+}
+
+.gem img {
+  width: 170px;
+  height: 170px;
+  display: block;
+  margin: 0 auto;
+}
+
+.gem h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
